@@ -1,0 +1,49 @@
+# --- Python cache / compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- OS / IDE specific ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Streamlit specific cache ---
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- Jupyter / notebooks (if any) ---
+.ipynb_checkpoints/
+
+# --- Logs / temporary files ---
+*.log
+*.tmp
+*.bak
+
+# --- Personal / sensitive data ---
+*.csv
+*.xlsx
+*.json
+*.pkl
+
+# --- Backup or experiment files ---
+backup/
+notes/
+temp/
+test_*.py
