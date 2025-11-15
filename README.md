@@ -1,22 +1,18 @@
-Here is the **raw markdown**, with no code blocks:
-
----
-
 # Simple Stunting Fuzzy
 
 A Streamlit application for analyzing stunting risk using fuzzy logic.
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 **Try the live app here:**
+**Try the live app here:**
 [https://simple-stunting-fuzzy-team-03.streamlit.app/](https://simple-stunting-fuzzy-team-03.streamlit.app/)
 
-## 📘 Overview
+## Overview
 
 This project implements a fuzzy logic–based system to estimate or classify stunting risk based on user-provided input variables.
 The system is wrapped in an easy-to-use Streamlit interface so anyone—researchers, students, or health workers—can interact with the model without needing to understand the underlying code.
 
-## 🔍 Features
+## Features
 
 * Fuzzy logic classification system (implemented in `src/fuzzy_logic/`)
 * Interactive user interface built with Streamlit
@@ -24,7 +20,7 @@ The system is wrapped in an easy-to-use Streamlit interface so anyone—research
 * Ready for deployment on Streamlit Cloud
 * Simple inputs → fuzzy processing → clear risk output
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 .
@@ -36,28 +32,36 @@ The system is wrapped in an easy-to-use Streamlit interface so anyone—research
 └── .gitignore
 ```
 
-## ⚙️ Installation & Running Locally
+## Installation & Running Locally
 
 ### 1. Clone the repository
 
-git clone [https://github.com/mehame475/simple-stunting-fuzzy.git](https://github.com/mehame475/simple-stunting-fuzzy.git)
+```
+git clone https://github.com/mehame475/simple-stunting-fuzzy.git
 cd simple-stunting-fuzzy
+```
 
 ### 2. (Optional) Set up a virtual environment
 
+```
 python3 -m venv venv
 source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate           # Windows
+```
 
 ### 3. Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 4. Run the Streamlit app
 
+```
 streamlit run app.py
+```
 
-## 🧮 How It Works
+## How It Works
 
 * User enters health-related or demographic inputs through the UI.
 * Inputs are converted to fuzzy sets and evaluated using predefined fuzzy rules.
